@@ -1,27 +1,30 @@
-# EZ Screening hero image assignments
+# EZ Screening image assignments — reviewed
 
-All 18 generated images are stored in the repository under `images/hero-*.jpg`. The hero `<img>` references on the 18 corresponding HTML pages have been updated to use these assets. The `post-accident-intake.html` page reuses `images/hero-post-accident.jpg`, for a total of 19 HTML pages.
+The originally generated image set included unrelated subject matter and lettering cropped from larger composite images. Pages have been updated to use only relevant existing clinical/workplace images. Shopping cart, checkout, account, policy, alcohol, and oral-fluid pages use clean image-free headers rather than misleading visuals.
 
-| HTML page | Assigned hero image |
-|---|---|
-| `index.html` | `images/hero-index.jpg` |
-| `services.html` | `images/hero-services.jpg` |
-| `urine-drug-testing.html` | `images/hero-urine-drug-testing.jpg` |
-| `hair-drug-testing.html` | `images/hero-hair-drug-testing.jpg` |
-| `oral-fluid-testing.html` | `images/hero-oral-fluid-testing.jpg` |
-| `alcohol-testing.html` | `images/hero-alcohol-testing.jpg` |
-| `dot-testing.html` | `images/hero-dot-testing.jpg` |
-| `workplace-testing.html` | `images/hero-workplace-testing.jpg` |
-| `post-accident.html` | `images/hero-post-accident.jpg` |
-| `how-it-works.html` | `images/hero-how-it-works.jpg` |
-| `about.html` | `images/hero-about.jpg` |
-| `contact.html` | `images/hero-contact.jpg` |
-| `sign-in.html` | `images/hero-sign-in.jpg` |
-| `cart.html` | `images/hero-cart.jpg` |
-| `checkout.html` | `images/hero-checkout.jpg` |
-| `privacy.html` | `images/hero-privacy.jpg` |
-| `terms.html` | `images/hero-terms.jpg` |
-| `refunds.html` | `images/hero-refunds.jpg` |
-| `post-accident-intake.html` | `images/hero-post-accident.jpg` |
+| Page | Current hero image | Treatment |
+|---|---|---|
+| `index.html` | `images/hero-services.jpg` | Relevant photograph |
+| `store.html` | `images/hero-services.jpg` | Relevant photograph |
+| `services.html` | `images/hero-services.jpg` | Relevant photograph |
+| `urine-drug-testing.html` | `images/hero-urine-drug-testing.jpg` | Relevant photograph |
+| `hair-drug-testing.html` | `images/hero-hair-drug-testing.jpg` | Relevant photograph |
+| `dot-testing.html` | `images/hero-dot-testing.jpg` | Relevant photograph |
+| `workplace-testing.html` | `images/hero-workplace-testing.jpg` | Relevant photograph |
+| `post-accident.html` | `images/hero-post-accident.jpg` | Relevant photograph |
+| `how-it-works.html` | `images/hero-how-it-works.jpg` | Relevant photograph |
+| `about.html` | `images/hero-about.jpg` | Relevant photograph |
+| `contact.html` | `images/hero-contact.jpg` | Relevant photograph |
+| `post-accident-intake.html` | `images/hero-post-accident.jpg` | Relevant photograph |
+| `oral-fluid-testing.html` | None | Compact, image-free header |
+| `alcohol-testing.html` | None | Compact, image-free header |
+| `cart.html` | None | Compact, image-free header |
+| `checkout.html` | None | Compact, image-free header |
+| `sign-in.html` | None | Compact, image-free header |
+| `privacy.html` | None | Compact, image-free header |
+| `terms.html` | None | Compact, image-free header |
+| `refunds.html` | None | Compact, image-free header |
 
-The site logo remains unchanged. Legacy credits for the replaced hero photography have been updated to clarify that the hero art is AI-generated. The images should be reviewed in the live GitHub Pages layout, including mobile crops.
+The homepage also uses `images/hero-workplace-testing.jpg` as its supporting image in the employer section. The homepage and other photo hero elements preserve 16:9 aspect ratio across desktop and mobile rather than using fixed heights. No generated hero is presented as a photograph of an actual EZ Screening employee or facility.
+
+Unused generated files may still exist under `images/`; they are not referenced by the current pages and can be removed in a future asset cleanup.
