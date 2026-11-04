@@ -3,3 +3,23 @@
 .image-credits{border-top:1px solid var(--line);padding:15px 0 22px;font-size:11px;line-height:1.8;color:var(--muted)}
 .image-credits a{text-decoration:underline;text-underline-offset:2px}
 .hero-picture img,.feature-photo img{object-fit:cover;object-position:center}
+
+/* EZ Screening storefront */
+.store-toolbar{display:grid;grid-template-columns:2fr 1fr 1fr;align-items:end;gap:16px;margin:25px 0 18px;padding:20px;background:#f2f9f3;border:1px solid #dce9df;border-radius:14px}
+.store-toolbar label{display:flex;flex-direction:column;gap:8px;color:#254b2c;font-size:12px;font-weight:800}
+.store-toolbar input,.store-toolbar select{width:100%;min-height:48px;border:1px solid #cbded0;border-radius:8px;padding:10px 13px;background:white;color:#243c29;font-size:14px}
+.store-results-count,#store-count{font-size:13px;font-weight:700;color:#68766d;margin:0 0 20px}
+.shop-card{min-height:315px;transition:box-shadow .2s,transform .2s}
+.shop-card:hover{transform:translateY(-3px);box-shadow:0 14px 35px #1c54221a}
+.shop-card .product-bottom strong{font-size:23px}
+.store-total{font-size:16px;font-weight:900}
+.store-total strong{font-size:20px}
+.store-empty{grid-column:1/-1}
+.store-categories .store-category-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:24px}
+.store-category-links a{border:1px solid #dce9df;border-radius:14px;padding:24px;background:white;font-size:26px}
+.store-category-links a strong{display:block;font-size:19px;margin-top:12px}
+.store-category-links a span{display:block;font-size:13px;color:#68766d;margin-top:5px}
+.store-notice{margin-top:30px;border-left:4px solid #20b935;padding:18px 25px;background:#f2f9f3}
+.store-notice p{margin-bottom:0}
+@media(max-width:850px){.store-toolbar{grid-template-columns:1fr 1fr}.store-toolbar label:first-child{grid-column:1/-1}.store-categories .store-category-links{grid-template-columns:1fr 1fr}}
+@media(max-width:580px){.store-toolbar,.store-categories .store-category-links{grid-template-columns:1fr}.store-toolbar label:first-child{grid-column:auto}}
