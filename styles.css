@@ -111,3 +111,8 @@ img,video,iframe{max-width:100%}
  .page-hero .hero-copy{width:100%;max-width:100%}
  .home-hero .hero-inner{min-height:0}
 }
+
+/* Hide the large green promotional CTA banner on phones; retain desktop CTA. */
+@media (max-width: 767px) {
+  .cta-band { display: none !important; }
+}
