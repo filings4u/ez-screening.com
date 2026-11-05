@@ -116,3 +116,11 @@ img,video,iframe{max-width:100%}
 @media (max-width: 767px) {
   .cta-band { display: none !important; }
 }
+
+/* Remove top promotional hero banners on phones, and remove CTA banners site-wide. */
+.cta-band{display:none!important}
+@media(max-width:767px){
+  .page-hero{display:none!important}
+  main>.page-hero+.section{padding-top:34px}
+  main>.page-hero+.value-bar{margin-top:0}
+}
