@@ -103,3 +103,11 @@ img,video,iframe{max-width:100%}
 .footer-bottom > span:first-child{white-space:nowrap;font-size:clamp(10px,2.9vw,12px);line-height:1.5}
 .footer-bottom #year{display:inline!important;margin:0!important;white-space:nowrap}
 .footer-bottom > span:last-child{max-width:520px;margin-inline:auto;line-height:1.6;text-wrap:balance}
+
+/* Mobile: remove decorative hero/banner photographs while retaining heading and actions. */
+@media (max-width:767px){
+ .page-hero .hero-picture{display:none!important}
+ .page-hero .hero-inner{display:block;min-height:0;padding-block:34px}
+ .page-hero .hero-copy{width:100%;max-width:100%}
+ .home-hero .hero-inner{min-height:0}
+}
